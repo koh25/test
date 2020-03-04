@@ -1,0 +1,45 @@
+.jumbotron { 
+    position: relative;
+    height: 100vh;
+    min-width: 300px;
+    background-image: url("../main.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*コンテナ*/
+.container{
+    margin-top: 5%;
+}
+
+/*見出し*/
+.content{
+    padding-bottom: 5%;
+    font-style: ;
+}
+
+/*営業時間*/
+    
+/*google map
+
+    .map {
+	    width: 100%;
+	    box-sizing: border-box;
+	    margin: 0 auto;
+    .map{
+        position : relative;
+        height : 0;
+        padding-bottom : 56.25%; 
+        overflow : hidden;
+    }
+ 
+    .iframe,{
+        position : absolute;
+        top : 0;
+        left : 0;
+        width : 100%;
+        height : 100%;
+    }
+
+/*電話番号*/
