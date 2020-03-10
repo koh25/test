@@ -1,9 +1,22 @@
 
 /*ナビゲーション
-.navber{
-    background-color: chocolate;
+.navbar-brand {
+  background: url("images/logo.psd") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
 }
 */
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block ; }
+.sp { display: none ; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px){
+.pc { display: none ; }
+.sp { display: block; }
+}
+
 
 .jumbotron { 
     position: relative;
@@ -17,7 +30,8 @@
 
 /*コンテナ*/
 .container{
-    margin-top: 5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 /*見出し*/
